@@ -28,7 +28,7 @@ Scan the QR code with Expo Go, or press `i` (iOS) / `a` (Android) in the termina
 ## Platforms Tested
 
 - **Data processing & logic:** Python 3.10 (Windows)
-- **App logic:** Verified via `test_logic.py`, a Python simulation mirroring the React Native implementation.
+- **App logic:** Verified via `test.py`, a Python simulation mirroring the React Native implementation.
 
 > The developer did not have access to an iOS/Android simulator during development, so all core logic (search, filter, prerequisite traversal) was first validated in Python, then ported to React Native.
 
